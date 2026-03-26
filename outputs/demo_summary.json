@@ -1,0 +1,34 @@
+{
+  "model": "nvidia/Nemotron-Cascade-2-30B-A3B",
+  "mock_mode": true,
+  "num_attention_layers": 8,
+  "num_heads": 16,
+  "color_scale": "Viridis",
+  "export_csv": true,
+  "runs": [
+    {
+      "prompt": "Explain quantum computing",
+      "html": "outputs/attention_map.html",
+      "json": "outputs/attention_data.json",
+      "elapsed_s": 0.31,
+      "timestamp": "2026-03-26T12:00:00Z"
+    },
+    {
+      "prompt": "The capital of France is",
+      "html": "outputs/attention_the_capital_of_franc.html",
+      "json": "outputs/attention_the_capital_of_franc.json",
+      "elapsed_s": 0.29,
+      "timestamp": "2026-03-26T12:00:01Z"
+    },
+    {
+      "prompt": "Neural networks learn by",
+      "html": "outputs/attention_neural_networks_learn.html",
+      "json": "outputs/attention_neural_networks_learn.json",
+      "elapsed_s": 0.28,
+      "timestamp": "2026-03-26T12:00:01Z"
+    }
+  ],
+  "comparison_html": "outputs/comparison.html",
+  "total_elapsed_s": 1.21,
+  "generated_at": "2026-03-26T12:00:02Z"
+}
